@@ -1,4 +1,6 @@
 class Song
+  
+  module Concerns:ModuleName
 
   attr_accessor :name
 
