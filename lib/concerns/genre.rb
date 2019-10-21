@@ -1,6 +1,6 @@
 class Genre
 
-  extend Concerns::Findable
+  module Concerns::Findable
 
   attr_accessor :name
   @@all = []
